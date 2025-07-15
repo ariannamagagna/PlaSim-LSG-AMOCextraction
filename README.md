@@ -1,3 +1,9 @@
+# PlaSim-LSG AMOC Extraction
+
+This repository contains a shell script that can be used to  
+- extract diagnostic files from `.tar` archives
+- extract yearly amoc values from the latter  
+
 # AMOC Extraction from PlaSim-LSG Diagnostic Output
 
 This Bash script automates the extraction of Atlantic Meridional Overturning Circulation (AMOC) values from diagnostic `.tar` archives produced by the PLASIM-LSG climate model. It loops over multiple blocks and trajectories, computes ensemble averages, and saves yearly means for further analysis.
